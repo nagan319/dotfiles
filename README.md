@@ -34,8 +34,6 @@ Downloads/
     .gitkeep
 .config/
     fish/
-        completions/
-        conf.d/
         config.fish
         fish_variables
         functions/
