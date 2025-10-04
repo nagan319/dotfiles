@@ -1,0 +1,44 @@
+{
+    "layer": "bottom",
+    "position": "top",
+
+    "modules-left": [
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "network",
+        "pulseaudio",
+        "battery"
+    ],
+
+    "sway/workspaces": {
+        "format": "{name}",
+        "tooltip": true
+    },
+    
+    "sway/mode": {
+        "format": "  {mode}"
+    },
+
+    "network": {
+        "format-wifi": "Wifi:  {signalStrength}%",
+        "format-ethernet": "Ethernet:  {ifname}",
+        "format-disconnected": "Disconnected",
+        "tooltip": true
+    },
+
+    "battery": {
+        "format": "Battery: {capacity}%"
+    },
+
+    "pulseaudio": {
+        "format": "Volume: {volume}%",
+        "format-muted": "(Muted): {volume}%"
+    }, 
+
+    "clock": {
+        "format": "{:%A, %m/%d/%Y %H:%M}"
+    },
+}

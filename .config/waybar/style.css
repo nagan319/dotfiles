@@ -1,0 +1,21 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: "MesloLGS Nerd Font", monospace;
+  font-size: 12px;
+  padding: 2px;
+}
+
+window#waybar {
+  background-color: #1E1E2E;
+  color: #CDD6F4;
+  border-bottom: none;
+}
+/* Optional: Add styles for other modules here */
+#battery,
+#clock,
+#network,
+#sway-mode {
+  padding: 0 10px;
+  margin: 0 5px;
+}
