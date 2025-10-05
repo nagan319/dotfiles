@@ -7,3 +7,4 @@ set statusbar-bg "1e1e2e"
 set statusbar-fg "#cdd6f4"
 
 set guioptions none
+set selection-clipboard clipboard
